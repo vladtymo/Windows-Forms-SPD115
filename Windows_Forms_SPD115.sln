@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Forms", "01_Forms\01_For
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Common_controls", "02_Common_controls\02_Common_controls.csproj", "{2DEB8FB8-4B39-4152-BBEC-F10CDF941DB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Combo_box", "03_Combo_box\03_Combo_box.csproj", "{1763C54B-2128-44F8-A118-F3586C1E5BC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_Combo_box", "03_Combo_box\03_Combo_box.csproj", "{1763C54B-2128-44F8-A118-F3586C1E5BC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_List_box", "04_List_box\04_List_box.csproj", "{43066EB2-8693-48E3-A816-BFD3AB68B213}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_List_box", "04_List_box\04_List_box.csproj", "{43066EB2-8693-48E3-A816-BFD3AB68B213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Controls_Indicators", "05_Controls_Indicators\05_Controls_Indicators.csproj", "{2FC9E90C-E00A-4396-9D4A-4CAF22AC6464}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{43066EB2-8693-48E3-A816-BFD3AB68B213}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43066EB2-8693-48E3-A816-BFD3AB68B213}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43066EB2-8693-48E3-A816-BFD3AB68B213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FC9E90C-E00A-4396-9D4A-4CAF22AC6464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FC9E90C-E00A-4396-9D4A-4CAF22AC6464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FC9E90C-E00A-4396-9D4A-4CAF22AC6464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FC9E90C-E00A-4396-9D4A-4CAF22AC6464}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
