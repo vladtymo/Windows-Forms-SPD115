@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_List_box", "04_List_box\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Controls_Indicators", "05_Controls_Indicators\05_Controls_Indicators.csproj", "{2FC9E90C-E00A-4396-9D4A-4CAF22AC6464}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Child_Controls", "06_Child_Controls\06_Child_Controls.csproj", "{18A8EC7A-C28A-40A0-A458-CE526BE06033}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2FC9E90C-E00A-4396-9D4A-4CAF22AC6464}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FC9E90C-E00A-4396-9D4A-4CAF22AC6464}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FC9E90C-E00A-4396-9D4A-4CAF22AC6464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18A8EC7A-C28A-40A0-A458-CE526BE06033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A8EC7A-C28A-40A0-A458-CE526BE06033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A8EC7A-C28A-40A0-A458-CE526BE06033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A8EC7A-C28A-40A0-A458-CE526BE06033}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
