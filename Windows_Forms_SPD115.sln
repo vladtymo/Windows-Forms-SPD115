@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_Controls_Indicators", "0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_Child_Controls", "06_Child_Controls\06_Child_Controls.csproj", "{18A8EC7A-C28A-40A0-A458-CE526BE06033}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_forms", "07_forms\07_forms.csproj", "{003EFF2F-3397-43C9-84A0-1884B3EB4AA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_forms", "07_forms\07_forms.csproj", "{003EFF2F-3397-43C9-84A0-1884B3EB4AA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_dialogs", "08_dialogs\08_dialogs.csproj", "{660B0BC6-F363-4BBA-934F-75CD3BF57F85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{003EFF2F-3397-43C9-84A0-1884B3EB4AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{003EFF2F-3397-43C9-84A0-1884B3EB4AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{003EFF2F-3397-43C9-84A0-1884B3EB4AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{660B0BC6-F363-4BBA-934F-75CD3BF57F85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{660B0BC6-F363-4BBA-934F-75CD3BF57F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{660B0BC6-F363-4BBA-934F-75CD3BF57F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{660B0BC6-F363-4BBA-934F-75CD3BF57F85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
