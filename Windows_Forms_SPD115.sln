@@ -17,9 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_Child_Controls", "06_Chi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_forms", "07_forms\07_forms.csproj", "{003EFF2F-3397-43C9-84A0-1884B3EB4AA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_dialogs", "08_dialogs\08_dialogs.csproj", "{660B0BC6-F363-4BBA-934F-75CD3BF57F85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_dialogs", "08_dialogs\08_dialogs.csproj", "{660B0BC6-F363-4BBA-934F-75CD3BF57F85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_menu", "09_menu\09_menu.csproj", "{7A32B802-542F-49AD-994C-5783FD883FE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_menu", "09_menu\09_menu.csproj", "{7A32B802-542F-49AD-994C-5783FD883FE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_rich_text", "10_rich_text\10_rich_text.csproj", "{4017A824-4F90-4FD6-9D70-3F4E4322CECF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{7A32B802-542F-49AD-994C-5783FD883FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A32B802-542F-49AD-994C-5783FD883FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A32B802-542F-49AD-994C-5783FD883FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4017A824-4F90-4FD6-9D70-3F4E4322CECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4017A824-4F90-4FD6-9D70-3F4E4322CECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4017A824-4F90-4FD6-9D70-3F4E4322CECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4017A824-4F90-4FD6-9D70-3F4E4322CECF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
