@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Windows.Forms;
 
 namespace _11_tree_list_view
 {
@@ -47,20 +48,26 @@ namespace _11_tree_list_view
 
             DirectoryInfo dir = new(node.Tag.ToString());
 
-            listBox1.Items.Clear();
+            listView1.Items.Clear();
             foreach (var f in dir.GetFiles())
             {
-                listBox1.Items.Add(new FileViewModel(f.Name, f.FullName));
+                ListViewItem item = new(f.Name, 0);
+
+                item.SubItems.Add(Path.GetExtension(f.Name));
+                item.SubItems.Add($"{Math.Round(f.Length / 1024.0, 2, MidpointRounding.ToEven)} KB");
+
+                item.Tag = f.FullName;
+                listView1.Items.Add(item);
             }
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (listBox1.SelectedItem == null) return;
+            if (listView1.SelectedItems.Count == 0) return;
 
-            var item = listBox1.SelectedItem as FileViewModel;
+            var path = listView1.SelectedItems[0].Tag.ToString();
 
-            MessageBox.Show(item.Path);
+            MessageBox.Show(path);
 
             // open file: Process.Start(path);
         }
