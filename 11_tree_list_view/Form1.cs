@@ -50,9 +50,18 @@ namespace _11_tree_list_view
             listBox1.Items.Clear();
             foreach (var f in dir.GetFiles())
             {
-                listBox1.Items.Add(f.Name);
+                listBox1.Items.Add(new FileViewModel(f.Name, f.FullName));
             }
-            
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (listBox1.SelectedItem == null) return;
+
+            var item = listBox1.SelectedItem as FileViewModel;
+
+            MessageBox.Show(item.Path);
+
             // open file: Process.Start(path);
         }
     }
