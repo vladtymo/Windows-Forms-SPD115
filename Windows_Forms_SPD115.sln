@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_menu", "09_menu\09_menu.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_rich_text", "10_rich_text\10_rich_text.csproj", "{4017A824-4F90-4FD6-9D70-3F4E4322CECF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_tree_list_view", "11_tree_list_view\11_tree_list_view.csproj", "{5B32E09A-0B97-4A97-83AC-0FD1CAD12E55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_tree_list_view", "11_tree_list_view\11_tree_list_view.csproj", "{5B32E09A-0B97-4A97-83AC-0FD1CAD12E55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_graphics", "12_graphics\12_graphics.csproj", "{E4937E93-0420-4A2A-BDF2-88A481B00F86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{5B32E09A-0B97-4A97-83AC-0FD1CAD12E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B32E09A-0B97-4A97-83AC-0FD1CAD12E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B32E09A-0B97-4A97-83AC-0FD1CAD12E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4937E93-0420-4A2A-BDF2-88A481B00F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4937E93-0420-4A2A-BDF2-88A481B00F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4937E93-0420-4A2A-BDF2-88A481B00F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4937E93-0420-4A2A-BDF2-88A481B00F86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
